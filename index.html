@@ -5,38 +5,39 @@
     <meta charset='utf-8' />
     <title>Resume</title>
     <link rel="stylesheet" href="Style.css" />
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <h1>Hello World</h1>
     <p>I'm hosted with GitHub Pages. hello my name is alisa</p>
     <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Skill Sets</li>
-        <li>Employment History</li>
+        <li data-tab-target="#home">Home</li>
+        <li data-tab-target="#about">About</li>
+        <li data-tab-target="#projects">Projects</li>
+        <li data-tab-target="#skills">Skill Sets</li>
+        <li data-tab-target="#employment">Employment History</li>
 
     </ul>
     <div class="tab-content">
-        <div id="home">
+        <div id="home" data-tab-content>
             <h1>Home</h1>
             <p>this is the home</p>
         </div>
-        <div id="about">
-            <h1>Home</h1>
+        <div id="about" data-tab-content>
+            <h1>About</h1>
             <p>this is the home</p>
         </div>
-        <div id="projects">
-            <h1>Home</h1>
+        <div id="projects" data-tab-content>
+            <h1>Projects</h1>
             <p>this is the home</p>
         </div>
-        <div id="skills">
-            <h1>Home</h1>
+        <div id="skills" data-tab-content>
+            <h1>Skill Sets</h1>
             <p>this is the home</p>
         </div>
-        <div id="employment">
-            <h1>Home</h1>
+        <div id="employment" data-tab-content>
+            <h1>Employment History</h1>
             <p>this is the home</p>
         </div>
     </div>
